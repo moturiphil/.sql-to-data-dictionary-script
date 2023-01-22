@@ -2,7 +2,7 @@ import csv
 import sqlalchemy
 
 # Connect to the database
-engine = sqlalchemy.create_engine('postgresql://phil:sokoro.phil@localhost:5432/cpims')
+engine = sqlalchemy.create_engine('postgresql://username:password@localhost:5432/db_name')
 
 # Get a list of all table names
 table_names = engine.table_names()
